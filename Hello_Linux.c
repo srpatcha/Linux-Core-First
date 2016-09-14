@@ -2,7 +2,7 @@
 int main(void)
 {
 
-Printrf("First commit sample file to test");
+Printrf("First commit sample $HOSTNAME file to test\n");
 
 return 0;
 
