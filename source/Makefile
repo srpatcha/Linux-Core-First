@@ -6,6 +6,7 @@ PWD := $(shell pwd)
 MAKE :=make
 obj-m+=hello_world_dd.o
 obj-m+=simple_driver_mutex.o
+bj-m += chardev.o
 
 all:
 	$(MAKE) -C $(KDIR) M=$(PWD) modules
