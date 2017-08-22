@@ -1,7 +1,9 @@
 # Linux-Core-First
 Learning New Skills BSP or LDD
-checkout the code with git clone URL
-cd Linux-Device-Drivers/source
+Steps to follow  module builds:
+
+cd Linux-Device-Drivers/source   // checkout the code with git clone URL
+
 make    //build *KO files
 
 Make clean // helps to clean all files object files.
