@@ -16,6 +16,8 @@ rmmod module_name       // removes dynamically loaded module and we can also rem
 
 modprob static_module_name  // static module can be loaded into Kernal module by using modprob
 
+
+
 reding EEPROM 
 
 root# find / -iname eeprom
