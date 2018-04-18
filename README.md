@@ -18,13 +18,13 @@ modprob static_module_name  // static module can be loaded into Kernal module by
 
 reding EEPROM 
 
-root@NAE:~# find / -iname eeprom
+root# find / -iname eeprom
 
 /usr/sbin/eeprom
 
 /lib/modules/4.8.26/kernel/drivers/misc/eeprom
 
-root@NAE:~# /usr/sbin/eeprom
+root# /usr/sbin/eeprom
 
 base-address of eeproms       : 0x50
 
