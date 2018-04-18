@@ -19,14 +19,24 @@ modprob static_module_name  // static module can be loaded into Kernal module by
 reding EEPROM 
 
 root@NAE:~# find / -iname eeprom
-/usr/sbin/eeprom
-/lib/modules/4.8.26/kernel/drivers/misc/eeprom
-root@NAE:~# /usr/sbin/eeprom
-base-address of eeproms       : 0x50
-number of pages to read       : 8 (0x50 .. 0x57)
-i2c-devicenode is             : /dev/i2c-0
-            on filedescriptor : 3
 
-ioctl(): No such device or address
+/usr/sbin/eeprom
+
+/lib/modules/4.8.26/kernel/drivers/misc/eeprom
+
+root@NAE:~# /usr/sbin/eeprom
+
+base-address of eeproms       : 0x50
+
+number of pages to read       : 8 (0x50 .. 0x57)
+
+i2c-devicenode is             : /dev/i2c-0
+
+            on filedescriptor : 3
+            
+            
+             ioctl(): No such device or address
+             
 ioctl returned -1
+
 
