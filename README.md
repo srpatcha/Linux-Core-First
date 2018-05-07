@@ -42,3 +42,16 @@ i2c-devicenode is             : /dev/i2c-0
 ioctl returned -1
 
 
+
+following C++ unit testing frameworks:
+
+Google Mock
+Google Test.
+UnitTest++
+CppUnit
+Boost.Test
+CppUnitLite
+NanoCppUnit
+Unit++
+CxxTest
+
